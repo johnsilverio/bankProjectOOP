@@ -99,15 +99,4 @@ public class BankAccount {
             this.balance -= 20.0;
         }
     }
-
-    public void accountStatus() {
-        if (this.status) {
-            System.out.println("\n" + "Account Number: " + this.getAccountNumber());
-            System.out.println("Type: " + this.getAccountType());
-            System.out.println("User: " + this.getUser());
-            System.out.println("Balance: " + this.getBalance());
-        } else {
-            System.out.println("Account not yet opened, please open it using the openAccount() method.");
-        }
-    }
 }

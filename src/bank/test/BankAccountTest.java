@@ -4,7 +4,7 @@ import bank.domain.BankAccount;
 
 public class BankAccountTest {
     public static void main(String[] args) {
-        // Creating fictional accounts
+        // Fictional accounts
         BankAccount account1 = new BankAccount(12345678, "CC", "Alice");
         BankAccount account2 = new BankAccount(87654321, "CP", "Bob");
         BankAccount account3 = new BankAccount(11223344, "CC", "Charlie");
