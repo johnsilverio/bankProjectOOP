@@ -5,6 +5,10 @@ Programming (OOP) concepts in Java. In this project, I created a class called `B
 of a bank account, allowing operations such as account opening, deposits, withdrawals, monthly fee payments, and account
 closure.
 
+## Class Diagram
+
+![Diagram Class BankAccount](src/img/screenshot.png)
+
 ## BankAccount Class Features
 
 The `BankAccount` class includes the following attributes and methods:
@@ -33,10 +37,6 @@ The project is organized into two packages:
 - `bank.domain`: Contains the `BankAccount` class, which implements the bank account logic.
 - `bank.test`: Contains the `BankAccountTest` class, which runs tests to validate the functionality of the `BankAccount`
   class.
-
-## Class Diagram
-
-![Diagram Class BankAccount](src/img/screenshot.png)
 
 ## What I Learned
 
